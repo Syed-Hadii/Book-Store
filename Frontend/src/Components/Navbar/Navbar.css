@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between ;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 25px 10px 25px;
+top: 0;
+z-index: 1000;
+background-color: #BE185D;
+    position: sticky;
+}
+
+
+.nav-right{
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
+}
+.category ul{
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.category ul li{
+    cursor: pointer;
+}
+.search-bar input{
+    padding-top: 2px;
+}
+.login-btn{
+    background-color: rgb(211, 109, 126);
+    color: white;
+    width: 70px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: none;
+}
+.login-btn:active{
+    background-color: rgb(68, 68, 68);
+}
+
+/* styles.css */
+.active-link {
+    color: white;
+    /* text-decoration: underline; */
+    font-weight: bolder;
+    text-decoration-color: white; /* Ensure underline color matches text color */
+    position: relative;
+
+  }
+  
+  /* Optionally, to ensure consistency across different text decorations */
+  .active-link:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid white;
+    width: 100%;
+    left: 0;
+    /* Adjust based on your design */
+    position: absolute;
+
+  }
